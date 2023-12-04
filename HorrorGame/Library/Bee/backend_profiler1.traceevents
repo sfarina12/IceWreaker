@@ -1,0 +1,538 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701615217543036, "dur":1358, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615217544405, "dur":120, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701615217544565, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701615217544585, "dur":195, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701615217544797, "dur":517, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615217545314, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753802, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753887, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753935, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753941, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753964, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753969, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753977, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753979, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753985, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753987, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753993, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218753996, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218754003, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218754019, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218754040, "dur":1515, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701615217545232, "dur":98, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217545330, "dur":8838, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217554179, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701615217554183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217555592, "dur":268, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701615217555864, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701615217555986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217556306, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701615217557521, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701615217557652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217557910, "dur":8048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701615217566071, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701615217566181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217566534, "dur":43349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701615217609977, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701615217610139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217610143, "dur":21721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701615217631965, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame.exe" }}
+,{ "pid":12345, "tid":1, "ts":1701615217632539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217632544, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame.exe" }}
+,{ "pid":12345, "tid":1, "ts":1701615217633828, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1701615217633929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217634159, "dur":69191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1701615217703447, "dur":40701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217744153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217744159, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217745304, "dur":20645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217765954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217765961, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217767098, "dur":22944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217790046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217790054, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217791434, "dur":18892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217810331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217810338, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217811486, "dur":20145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217831634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217831639, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217832708, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217832958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217832963, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217834276, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217834550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217834557, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217835686, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217836042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217836048, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217837302, "dur":1423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217838729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217838736, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217840403, "dur":19862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217860279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217860285, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217861368, "dur":17978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217879351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217879414, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217880649, "dur":21082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217901734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217901738, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217903159, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217903459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217903463, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217904545, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217905004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217905014, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217907189, "dur":24004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217931196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217931202, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217932565, "dur":21579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217954149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217954156, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217955497, "dur":28146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217983648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615217983677, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615217984868, "dur":24731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218009603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218009610, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218010817, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218011067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218011089, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218012068, "dur":24332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218036403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218036407, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218037605, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218037838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218037862, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218040343, "dur":68131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218108478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218108485, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218109776, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218110081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218110087, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218111201, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218111510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218111515, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218112604, "dur":3688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218116298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218116371, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218118888, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218119161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218119168, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218124965, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218125352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218125359, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218126883, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218127296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218127301, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218128576, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218129401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218129406, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218131125, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218131448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218131454, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218133198, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218133439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218133446, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218137302, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218137589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218137595, "dur":8372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218146086, "dur":2142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218148234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218148241, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218150250, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218151227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218151232, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218155116, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218155526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218155533, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218158424, "dur":3985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218162412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218162418, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218166320, "dur":26624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218192951, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218193825, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701615218196305, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218196397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218196403, "dur":4429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218200977, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701615218201075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218201082, "dur":12365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701615218213823, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218213933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218213942, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218216033, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701615218216244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218216248, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701615218217823, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701615218217915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218217918, "dur":8799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701615218226814, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218226917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218226920, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218229279, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218229387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218229393, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218231700, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218231791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701615218231794, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701615218235334, "dur":518449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701615217545361, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701615217545362, "dur":8913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701615217554275, "dur":23159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701615217577439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701615217577455, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701615217578843, "dur":43986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701615217622834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701615217622842, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701615217624248, "dur":1117613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701615218741883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701615218741891, "dur":11760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701615218753762, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1701615218753766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217545932, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217545933, "dur":8266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217554200, "dur":29269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1701615217583474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217583706, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1701615217584740, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701615217584851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217584857, "dur":18271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701615217603226, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701615217603363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217603432, "dur":6404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701615217609942, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1701615217610084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217610090, "dur":39578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1701615217649785, "dur":52338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217702127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217702292, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217703420, "dur":35971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217739396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217739403, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217740686, "dur":29330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217770021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217770027, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217771208, "dur":18835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217790047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217790054, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217791506, "dur":56653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217848164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217848170, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217849413, "dur":30240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217879655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217879659, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217880894, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217881149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217881153, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217882256, "dur":19387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217901648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217901656, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217903054, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217903390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217903396, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217904764, "dur":44410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217949179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615217949185, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615217950299, "dur":49773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218000075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218000081, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218001734, "dur":31123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218032860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218032866, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218033955, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218034177, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218034190, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218035519, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218035813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218035819, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218037337, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218037671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218037676, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218039381, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218040080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218040086, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218041359, "dur":85278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218126641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218126647, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218128961, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218129188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218129194, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218131125, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218131479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218131501, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218135715, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218136295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218136301, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218137909, "dur":2806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218140721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218140730, "dur":3455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218144304, "dur":2113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218146420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218146426, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218150189, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218150454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218150489, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218151437, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218151767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218151771, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218155966, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218156259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218156266, "dur":5738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218162118, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218162519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218162523, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218166312, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218166658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218166682, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701615218169561, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218169652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218169658, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218171355, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701615218171453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218171460, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701615218175263, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218175352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218175368, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218177328, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701615218177418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218177421, "dur":16873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701615218194411, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218194707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218194712, "dur":6511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218201323, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218201427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218201431, "dur":15976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701615218217505, "dur":19833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1701615218237342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701615218237349, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1701615218240751, "dur":513033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217545482, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217545483, "dur":8743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217554227, "dur":13509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615217567740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217567754, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615217568871, "dur":28524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615217597399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217597406, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615217598532, "dur":16353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615217614889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217614897, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615217615923, "dur":51258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217667186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217667436, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217668693, "dur":18041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217686739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217686971, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217688074, "dur":23656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217711734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217711740, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217713058, "dur":33991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217747051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217747057, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217749965, "dur":20205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217770173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217770178, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217771350, "dur":18692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217790047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217790054, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217791438, "dur":49641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217841083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217841089, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217842219, "dur":39200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217881422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217881439, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217884425, "dur":20891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217905319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217905324, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217907209, "dur":1839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217909053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217909060, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217910785, "dur":20707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217931505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217931509, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217933326, "dur":18400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217951750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217951766, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217952960, "dur":22142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217975106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217975115, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217976632, "dur":1127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217977761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615217977767, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615217979468, "dur":20743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615218000213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218000217, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615218001809, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615218002135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218002141, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615218003656, "dur":159838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615218163498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218165851, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701615218167157, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1701615218167241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218167305, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1701615218169649, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701615218169738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218169742, "dur":7307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701615218177155, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701615218177245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218177250, "dur":38387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701615218215756, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701615218215869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218215874, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701615218217760, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701615218217857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218217861, "dur":11606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701615218230571, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1701615218230695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218230702, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1701615218232007, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701615218232108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218232112, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701615218233849, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615218234331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701615218234339, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1701615218235574, "dur":518220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615217545605, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615217545605, "dur":8620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615217554225, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1701615217554353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615217555853, "dur":16390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1701615217572352, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1701615217572505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615217572573, "dur":35351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1701615217608044, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1701615217608155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615217608162, "dur":12099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1701615217620370, "dur":892399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701615218512780, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701615218512990, "dur":8482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701615218521716, "dur":232092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217545730, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217545731, "dur":8496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217554228, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701615217554415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217563661, "dur":21256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701615217585014, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1701615217585109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217585487, "dur":22343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1701615217607937, "dur":17703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1701615217625644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217625651, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1701615217626865, "dur":94895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1701615217721764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217721770, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1701615217723594, "dur":22172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217745770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217745776, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217746811, "dur":77100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217823915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217823942, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217825098, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217825355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217825361, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217826531, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217826786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217826792, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217827854, "dur":1060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217828917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217828923, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217830642, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217831026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217831033, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217832185, "dur":20184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217852374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217852381, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217853542, "dur":25875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217879420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217879432, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217880643, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217880926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217880931, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217881993, "dur":19771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217901766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217901791, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217903195, "dur":25682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217928902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217928909, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217930229, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217930491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217930497, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217931606, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217931943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217931947, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217933444, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217933676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217933682, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217934679, "dur":19485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217954167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217954171, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217955507, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217955865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217955871, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217957106, "dur":20430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217977540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217978879, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217980439, "dur":18546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615217998990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615217998997, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218000075, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218000327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218000331, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218001766, "dur":19397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218021167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218021173, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218024041, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218024321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218024327, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218025428, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218025866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218025872, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218027606, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218028205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218028211, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218029696, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218029973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218029980, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218031092, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218031392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218031398, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218032639, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218033114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218033118, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218034272, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218034509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218034513, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218035645, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218036120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218036125, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218037458, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218038184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218038189, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218041286, "dur":45826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218087117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218087124, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218088942, "dur":128426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218217371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218217377, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701615218220329, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701615218220426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218220433, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701615218226633, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1701615218226737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218226743, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1701615218228367, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1701615218228592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218228598, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1701615218231404, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1701615218231503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218231508, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1701615218232794, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/notso/Desktop/HorrorGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1701615218232882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701615218232888, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/notso/Desktop/HorrorGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1701615218234280, "dur":519514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701615218792509, "dur":1731, "ph":"X", "name": "ProfilerWriteOutput" }
+,
