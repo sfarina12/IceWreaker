@@ -74,8 +74,7 @@ public class Interact : MonoBehaviour
                 bool interacting_tmp = false;
 
                 if(canAnimate) interacting_tmp = animator.GetBool("isInteracting");
-                if(canScript) CallScriptMethod(scriptName,"isInteracting");
-
+                if (canScript) CallScriptMethod(scriptName, "isInteracting");
                 if (!interacting_tmp)
                 {
                     if (!isOn)
@@ -131,12 +130,13 @@ public class Interact : MonoBehaviour
         }
     }
 
-    public void CallScriptMethod(string componentName, string methodName)
+    public object CallScriptMethod(string componentName, string methodName)
     {
         var component = gameObject.GetComponent(componentName);
         var componentType = component.GetType();
         var methodInfo = componentType.GetMethod(methodName);
         var parameters = new object[0]; // Set up parameters here, if needed.
-        methodInfo.Invoke(component, parameters);
+        var result = methodInfo.Invoke(component, parameters);
+        return result;
     }
 }
