@@ -46,4 +46,8 @@ public class quest_useHammer : MonoBehaviour
             questEnded = true;
         }
     }
+    public void instantiateFinalState()
+    {
+        GameObject.Destroy(pipe);
+    }
 }

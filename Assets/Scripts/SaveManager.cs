@@ -28,6 +28,10 @@ public class SaveManager : MonoBehaviour
     
     [Space,Header("Quests")]
     public quest_dPad dpadQuest;
+    public quest_unlockHammer hammerUnlockQuest;
+    public quest_useHammer useHammerQuest;
+    public quest_openDoor openDoor;
+    
 
 
     [Space,Space,Header("Dev tools")]
@@ -83,7 +87,8 @@ public class SaveManager : MonoBehaviour
     }
 
     private void packData()
-    {   
+    {
+        string path = Application.persistentDataPath;
         dataToSave.playerPosition = player.transform.position;
 
         int i = 0;
@@ -100,6 +105,12 @@ public class SaveManager : MonoBehaviour
         dataToSave.isLightUpdate = !lightUpdate.enabled ? true : false;
 
         dataToSave.endQuest_dpad = dpadQuest.questEnded;
+
+        dataToSave.unlockHammer = hammerUnlockQuest.questEnded;
+        dataToSave.useHammer = useHammerQuest.questEnded;
+        dataToSave.openDoor = openDoor.questEnded;
+
+        
     }
 
     private void unpackData()
@@ -120,7 +131,22 @@ public class SaveManager : MonoBehaviour
         if (dataToSave.isLightUpdate) lightUpdate.performeUpdate(false);
 
         dpadQuest.questEnded = dataToSave.endQuest_dpad;
-        if(dataToSave.endQuest_dpad) dpadQuest.destroyDPadProp();
+        useHammerQuest.questEnded = dataToSave.useHammer;
+        hammerUnlockQuest.questEnded = dataToSave.unlockHammer;
+        openDoor.questEnded = dataToSave.openDoor;
+        if(dpadQuest.questEnded)
+        {
+            dpadQuest.Invoke("instantiateFinalState", 0);
+        }
+        if(useHammerQuest.questEnded)
+        {
+            useHammerQuest.Invoke("instantiateFinalState", 0);
+        }
+        if(openDoor.questEnded)
+        {
+            hammerUnlockQuest.Invoke("instantiateFinalState", 0);
+        }
+        if (dataToSave.endQuest_dpad) dpadQuest.destroyDPadProp();
     }
 
     public void Save() {
@@ -166,6 +192,9 @@ public class SaveData
     public bool isDPadEnabled;
     public bool isLightUpdate;
     public bool endQuest_dpad;
+    public bool unlockHammer;
+    public bool openDoor;
+    public bool useHammer;
 
     public SaveData() { doorsStoredValues = new List<bool>(); }
 }

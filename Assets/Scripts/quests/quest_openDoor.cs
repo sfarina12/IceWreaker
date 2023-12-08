@@ -12,6 +12,9 @@ public class quest_openDoor : MonoBehaviour
 
     printMessage message;
     playerInteractHandler interacter;
+    [HideInInspector]
+    public bool questEnded = false; 
+
 
     private void Start()
     {
@@ -30,6 +33,11 @@ public class quest_openDoor : MonoBehaviour
         if(hammerQuest.questEnded)
         {
             interactObject.interactableFlag = true;
+            questEnded = true;
         }
+    }
+    public void instantiateFinalState()
+    {
+        interactObject.interactableFlag = true;
     }
 }
