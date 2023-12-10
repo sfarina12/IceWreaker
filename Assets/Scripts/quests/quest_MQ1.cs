@@ -1,12 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class quest_MQ1 : MonoBehaviour
 {
     public PC_inputOutput PC;
+    public Animator doorAnimator;
+    public List<lightSwitching> all_switches;
+    public animationsStates state;
+    public List<GameObject> lightPCs;
+    
 
+    [HideInInspector]
+    public bool questEnded = false;
+    [HideInInspector]
+    public bool canZoom = true;
     int menus = 0; 
     List<string> screen;
     bool performad = false;
@@ -88,8 +98,23 @@ public class quest_MQ1 : MonoBehaviour
                 }
                 PC.menu(screen);
             } else {
-                //aprire la porta del motore e togliere tutte le luci
+                screen = new List<string>(); 
+                screen.Add("$OPENING MAIN ENGINE DOOR");
+                screen.Add("$PLEASE WAIT UNTIL THE SEQUENZE IS ENDED");
+                PC.menu(screen);
+                doorAnimator.Play("heavyDoorOpenClose");
             }
+        }
+
+        if(state.isEnded) {
+            foreach(lightSwitching a in all_switches) { a.turnoOff(); }
+            foreach(GameObject l in lightPCs) l.SetActive(false);
+            
+            screen = new List<string>(); 
+            PC.menu(screen);
+
+            canZoom = false;
+            questEnded = true;
         }
     }
 }

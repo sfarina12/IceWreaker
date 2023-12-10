@@ -9,27 +9,37 @@ public class PC_zoom : MonoBehaviour
     public SC_FPSController playerController;
     public GameObject playerCamera;
     public GameObject cameraDestination;
+    public quest_MQ1 quest;
     public float smoothness;
     public float minEndDistance = 1f;
+    public printMessage message;
     private bool isCoroutineWorking = false;
+
 
     Vector3 originalPosition;
     Quaternion originalRotation;
     
     public void scriptOn() { 
-        originalPosition = playerCamera.transform.position;
-        originalRotation = playerCamera.transform.rotation;
+        if(quest.canZoom) {
+            originalPosition = playerCamera.transform.position;
+            originalRotation = playerCamera.transform.rotation;
 
-       
-        isCoroutineWorking = true;
-        IEnumerator coroutine = moveCamera(cameraDestination.transform.position,cameraDestination.transform.rotation,false);
-        StartCoroutine(coroutine);
+
+            isCoroutineWorking = true;
+            IEnumerator coroutine = moveCamera(cameraDestination.transform.position,cameraDestination.transform.rotation,false);
+            StartCoroutine(coroutine);
+        } else {
+            message.showMessage("Out of power");
+        }
     }
     public void scriptOff() { 
-      
-        isCoroutineWorking = true;
-        IEnumerator coroutine = moveCamera(originalPosition,originalRotation,true);
-        StartCoroutine(coroutine);
+        if(quest.canZoom) {
+            isCoroutineWorking = true;
+            IEnumerator coroutine = moveCamera(originalPosition,originalRotation,true);
+            StartCoroutine(coroutine);
+        } else {
+            message.showMessage("Out of power");
+        }
      }
 
     private IEnumerator moveCamera(Vector3 endP, Quaternion endR,bool isOn)

@@ -10,6 +10,8 @@ public class lightSwitching : MonoBehaviour
     [Space]
     public Material light_on;
     public Material light_off;
+    [HideInInspector]
+    public bool forseState = false;
 
     void Start() {
         if(light_on == null) Debug.LogError("empty 'on' material for this light switch");
@@ -18,17 +20,27 @@ public class lightSwitching : MonoBehaviour
 
     void Update()
     {
-        if (!interactObject.isOn) {
-            foreach(Light light in lights) 
-                light.transform.gameObject.SetActive(true);
-            foreach(MeshRenderer model in models) 
-               model.material = light_on;
+        if(!forseState) {
+            if (!interactObject.isOn) {
+                foreach(Light light in lights) 
+                    light.transform.gameObject.SetActive(true);
+                foreach(MeshRenderer model in models) 
+                   model.material = light_on;
+            }
+            else {
+                foreach (Light light in lights)
+                    light.transform.gameObject.SetActive(false);
+                foreach(MeshRenderer model in models) 
+                   model.material = light_off;
+            }
         }
-        else {
-            foreach (Light light in lights)
-                light.transform.gameObject.SetActive(false);
-            foreach(MeshRenderer model in models) 
-               model.material = light_off;
-        }
+    }
+
+    public void turnoOff() {
+        forseState = true;
+        foreach (Light light in lights)
+            light.transform.gameObject.SetActive(false);
+        foreach(MeshRenderer model in models) 
+           model.material = light_off;
     }
 }
