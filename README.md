@@ -34,3 +34,11 @@ didn't used to comment functions and rapidly regretted it.
 The monster has some basic and advanced behavior. Its AI works as follows
 <img src='https://raw.githubusercontent.com/sfarina12/IceWrecker/main/AI.png'>
 </p>
+
+<h2>Social</h2>
+<p>
+  <ul>
+    <li>Trailer of the game on <a href="">Youtube</a></li>
+    <li>Download game on <a href="">Itch.io</a></li>
+  </ul>
+</p>
