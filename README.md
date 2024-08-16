@@ -14,7 +14,7 @@ Almost all things were made by me, except:
 <ul>
   <li>Monster model <a href="https://hugodg.itch.io/">Hugo De Groote</a></li>
   <li>Monster animations <a href="https://hugodg.itch.io/">Hugo De Groote</a></li>
-  <li>My logo at the beginning of the game <a href="[https://hugodg.itch.io/](https://www.instagram.com/niji_ewe/)">NIJI</a></li>
+  <li>My logo at the beginning of the game <a href="https://www.instagram.com/niji_ewe/">NIJI</a></li>
   <li>Almost all audio sources</li>
 </ul>
 </p>
