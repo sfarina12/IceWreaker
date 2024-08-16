@@ -1,6 +1,6 @@
 <p align='center'> <img src='https://raw.githubusercontent.com/sfarina12/IceWrecker/main/Assets/Texture/github/Icewrecker_logo.png'> </p>
 <h1>ICEWRECKER</h1>
-<h2>Introduction<h2>
+<h2>Introduction</h2>
 <p>
   A horror game made in Unity3D game engine.
   The game was made as modular as possible, so the majority of components could be reused.
