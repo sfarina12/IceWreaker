@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8cc5f0b2e864ca14ebb966c72526ef7c
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -6999551618061244610
+    second: Demon-AnimBi
+  - first:
+      74: 4006498119782998870
+    second: Demon-Rig|Demon-AnimBi
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Demon-AnimBi' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'leg3_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'leg3_R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Demon-Rig|Demon-AnimBi' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'leg3_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'leg3_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Demon-AnimBi
+      takeName: Demon-AnimBi
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon-Rig|Demon-AnimBi
+      takeName: Demon-Rig|Demon-AnimBi
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Chest
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg1_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg1_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg2_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg2_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: body
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm1_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm1_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm2_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm2_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: bonemonster(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wendigo
+      parentName: bonemonster(Clone)
+      position: {x: -0, y: 0.051955502, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Demon-Rig
+      parentName: bonemonster(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: Demon-Rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.0019999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Demon-Rig
+      position: {x: 0.000020478044, y: -0.0001832759, z: 0.01317686}
+      rotation: {x: 0.6003912, y: 0.019349646, z: -0.006947081, w: 0.7994422}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: body
+      parentName: Chest
+      position: {x: -1.5133991e-11, y: 0.0023630853, z: -9.98989e-10}
+      rotation: {x: 0.16742557, y: -0.0017671856, z: 0.009328791, w: 0.985839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck
+      parentName: body
+      position: {x: -2.561137e-11, y: 0.0039169015, z: 4.4965417e-11}
+      rotation: {x: 0.05407158, y: 1.1658588e-10, z: 8.743941e-11, w: 0.99853706}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: head
+      parentName: neck
+      position: {x: -9.822542e-13, y: 0.0014823837, z: -4.141475e-10}
+      rotation: {x: 0.70610493, y: 0.00483088, z: 0.014627271, w: 0.7079397}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Wendigo Horn
+      parentName: head
+      position: {x: 0.0006326099, y: -0.0003595346, z: -0.0009930546}
+      rotation: {x: 0.9951603, y: -0.000000082040565, z: 0.00000083033467, w: 0.098265074}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Wendigo Skull
+      parentName: head
+      position: {x: 1.3038516e-10, y: 0.001974625, z: -0.00008203063}
+      rotation: {x: 0.9951603, y: -0.00000008204057, z: 0.00000083029204, w: 0.098265074}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0999999}
+    - name: head_end
+      parentName: head
+      position: {x: -0, y: 0.0029796127, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm1_R
+      parentName: body
+      position: {x: 0.0025888777, y: 0.0026833673, z: 0.00031450726}
+      rotation: {x: -0.16158552, y: -0.16513585, z: 0.6938951, w: -0.68200433}
+      scale: {x: 0.999999, y: 0.9999999, z: 1}
+    - name: Water-Arm1-R.001
+      parentName: Arm1_R
+      position: {x: -8.9406965e-10, y: -5.9604643e-10, z: -4.4703483e-10}
+      rotation: {x: 0.1724184, y: 0.7081862, z: -0.6797266, w: 0.08195077}
+      scale: {x: 1.0000013, y: 1, z: 1.0000001}
+    - name: Arm2_R
+      parentName: Arm1_R
+      position: {x: -1.862645e-10, y: 0.004338225, z: 6.705522e-10}
+      rotation: {x: 0.017650725, y: -0.0073976223, z: 0.016583629, w: 0.9996793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bras B M1.001
+      parentName: Arm2_R
+      position: {x: -0.0000000011920929, y: 0.0000000017881393, z: 5.9604643e-10}
+      rotation: {x: -0.10396089, y: -0.0049761203, z: 0.9945432, w: 0.007160526}
+      scale: {x: 1.0000011, y: 0.99999964, z: 1.0000004}
+    - name: hand_R
+      parentName: Arm2_R
+      position: {x: 1.11758706e-10, y: 0.0046171225, z: -8.9406965e-10}
+      rotation: {x: -0.14153934, y: 0.24792787, z: -0.036592346, w: 0.95768446}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Main M1.002
+      parentName: hand_R
+      position: {x: -2.9802322e-10, y: -5.9604643e-10, z: -8.9406965e-10}
+      rotation: {x: -0.18647037, y: 0.014122398, z: 0.9823158, w: 0.009223326}
+      scale: {x: 1.4801886, y: 1.4801897, z: 1.480188}
+    - name: hand_R_end
+      parentName: hand_R
+      position: {x: -0, y: 0.0032595112, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm1_L
+      parentName: body
+      position: {x: -0.002588878, y: 0.0026833673, z: 0.00031450734}
+      rotation: {x: 0.09239063, y: -0.08108159, z: 0.7179214, w: 0.6851852}
+      scale: {x: 0.99999887, y: 1, z: 0.9999998}
+    - name: Water-Arm1-R.003
+      parentName: Arm1_L
+      position: {x: 0.0000000011920929, y: -2.9802322e-10, z: -2.9802322e-10}
+      rotation: {x: 0.08195077, y: 0.6797266, z: 0.7081862, w: -0.1724184}
+      scale: {x: -1.0000014, y: -1.0000001, z: -1.0000001}
+    - name: Arm2_L
+      parentName: Arm1_L
+      position: {x: 3.352761e-10, y: 0.004338225, z: -8.381903e-11}
+      rotation: {x: 0.02490795, y: 0.0023105962, z: -0.010613039, w: 0.99963075}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Bras B M1.004
+      parentName: Arm2_L
+      position: {x: 5.9604643e-10, y: 0.000000004172325, z: 0.000000001490116}
+      rotation: {x: -0.007160417, y: 0.9945432, z: 0.004976352, w: -0.103960864}
+      scale: {x: -1.0000012, y: -0.9999996, z: -1.0000005}
+    - name: hand_L
+      parentName: Arm2_L
+      position: {x: 0.0000000011920929, y: 0.004617119, z: -5.9604643e-10}
+      rotation: {x: -0.06777296, y: -0.13518848, z: 0.22744232, w: 0.9619776}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Main M1.004
+      parentName: hand_L
+      position: {x: 0.0000000011920929, y: 5.9604643e-10, z: -5.9604643e-10}
+      rotation: {x: -0.009223287, y: 0.9823158, z: -0.014122233, w: -0.18647034}
+      scale: {x: -1.4801883, y: -1.4801894, z: -1.4801878}
+    - name: hand_L_end
+      parentName: hand_L
+      position: {x: -0, y: 0.0032595112, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armbis1_R
+      parentName: body
+      position: {x: 0.0018459082, y: 0.002176128, z: -0.001707356}
+      rotation: {x: -0.24275374, y: 0.09673671, z: -0.6830193, w: 0.68205374}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Water-Arm1-R.002
+      parentName: Armbis1_R
+      position: {x: -7.636845e-10, y: 0, z: 8.9406965e-10}
+      rotation: {x: 0.51697516, y: 0.5329135, z: -0.47516328, w: 0.47218612}
+      scale: {x: 0.99999964, y: 0.9999999, z: 1.2000002}
+    - name: Armbis2_R
+      parentName: Armbis1_R
+      position: {x: -9.126961e-10, y: 0.00518682, z: -2.9802322e-10}
+      rotation: {x: 0.7549668, y: -0.000000084809614, z: 0.000000094369966, w: 0.65576303}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bras B M1.003
+      parentName: Armbis2_R
+      position: {x: -7.4505804e-11, y: -0.0000000017881393, z: 0.0000000011920929}
+      rotation: {x: 0.010434994, y: 0.0066577927, z: 0.99991214, w: 0.004749349}
+      scale: {x: 0.9999999, y: 1.1999995, z: 1}
+    - name: handBis_R
+      parentName: Armbis2_R
+      position: {x: 0.0000000012665987, y: 0.0055874423, z: -2.0489097e-10}
+      rotation: {x: 0.19170596, y: -0.22950988, z: 0.52175903, w: 0.79896283}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Main M1.003
+      parentName: handBis_R
+      position: {x: -8.9406965e-10, y: -0.0000000035762786, z: 5.9604643e-10}
+      rotation: {x: 0.03499156, y: -0.101534694, z: 0.9940489, w: -0.018251598}
+      scale: {x: 1.3456247, y: 1.5389065, z: 1.223364}
+    - name: handBis_R_end
+      parentName: handBis_R
+      position: {x: -0, y: 0.0031692008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armbis1_L
+      parentName: body
+      position: {x: -0.0018459081, y: 0.0021761272, z: -0.001707356}
+      rotation: {x: -0.37123597, y: 0.2015639, z: 0.8834521, w: 0.20265298}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Water-Arm1-R.004
+      parentName: Armbis1_L
+      position: {x: -0.000000001490116, y: 0.0000000017881393, z: 7.45058e-10}
+      rotation: {x: -0.4721863, y: -0.47516316, z: -0.5329136, w: 0.516975}
+      scale: {x: -0.9999996, y: -0.9999999, z: -1.2}
+    - name: Armbis2_L
+      parentName: Armbis1_L
+      position: {x: 3.72529e-10, y: 0.0051868195, z: -5.2154064e-10}
+      rotation: {x: 0.34423077, y: 0.00000010217037, z: -0.000000019838897, w: 0.9388851}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bras B M1.005
+      parentName: Armbis2_L
+      position: {x: 0.000000001490116, y: -0.0000000023841857, z: 0.0000000025704503}
+      rotation: {x: -0.004749459, y: 0.99991214, z: -0.0066575934, w: 0.010435027}
+      scale: {x: -1, y: -1.1999993, z: -0.9999998}
+    - name: handBis_L
+      parentName: Armbis2_L
+      position: {x: 8.9406965e-10, y: 0.0055874414, z: -4.4703483e-10}
+      rotation: {x: -0.012983597, y: 0.29441753, z: 0.15428819, w: 0.94305086}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Main M1.005
+      parentName: handBis_L
+      position: {x: 5.9604643e-10, y: 0, z: 0.0000000032782554}
+      rotation: {x: 0.018251412, y: 0.9940489, z: 0.10153487, w: 0.034991495}
+      scale: {x: -1.3456247, y: -1.5389063, z: -1.223364}
+    - name: handBis_L_end
+      parentName: handBis_L
+      position: {x: -0, y: 0.0031692008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg1_L
+      parentName: Chest
+      position: {x: -0.0011296814, y: -0.0005527502, z: 0.00009058835}
+      rotation: {x: 0.019422447, y: -0.031537876, z: 0.99778414, w: 0.05527184}
+      scale: {x: 1.0000066, y: 1.0000001, z: 1.0000066}
+    - name: leg2_L
+      parentName: leg1_L
+      position: {x: -1.8975697e-10, y: 0.00534762, z: -3.1664968e-10}
+      rotation: {x: -0.6713214, y: -0.0004987446, z: 0.009077864, w: 0.7411106}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999996}
+    - name: leg3_L
+      parentName: leg2_L
+      position: {x: 4.5693012e-11, y: 0.0039973212, z: 7.4505804e-11}
+      rotation: {x: 0.6558435, y: 0.005719643, z: 0.008633058, w: 0.75482583}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.99999964}
+    - name: foot_L
+      parentName: leg3_L
+      position: {x: 3.4109687e-10, y: 0.005356115, z: 1.0244548e-10}
+      rotation: {x: 0.36251634, y: 0.276049, z: -0.109500095, w: 0.8833961}
+      scale: {x: 0.99998957, y: 1.0000038, z: 1.0000064}
+    - name: Wendigo.002
+      parentName: foot_L
+      position: {x: -0.0016644462, y: 0.0005804519, z: -0.00037825076}
+      rotation: {x: -0.011234478, y: -0.28195515, z: 0.9593561, w: -0.003301679}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: foot_L_end
+      parentName: foot_L
+      position: {x: -0, y: 0.001951554, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg1_R
+      parentName: Chest
+      position: {x: 0.0011296814, y: -0.00055274955, z: 0.0000905882}
+      rotation: {x: -0.029810615, y: -0.03379347, z: 0.99391747, w: -0.10048621}
+      scale: {x: 1.0000061, y: 1.0000005, z: 1.0000068}
+    - name: leg2_R
+      parentName: leg1_R
+      position: {x: -1.3038516e-10, y: 0.005347623, z: -1.5832484e-10}
+      rotation: {x: -0.6694379, y: -0.0004908455, z: 0.01209642, w: 0.7427694}
+      scale: {x: 1.0000012, y: 1.0000005, z: 0.9999996}
+    - name: leg3_R
+      parentName: leg2_R
+      position: {x: 4.307367e-11, y: 0.0039973212, z: -1.4901161e-10}
+      rotation: {x: 0.6358022, y: -0.015854727, z: 0.0031490219, w: 0.77168274}
+      scale: {x: 1.0000007, y: 1.0000007, z: 0.99999976}
+    - name: foot_R
+      parentName: leg3_R
+      position: {x: 2.3283063e-11, y: 0.005356115, z: 9.3132255e-12}
+      rotation: {x: 0.40969932, y: -0.12915166, z: -0.044437557, w: 0.90193766}
+      scale: {x: 0.99999475, y: 0.9999999, z: 1.0000052}
+    - name: Wendigo.001
+      parentName: foot_R
+      position: {x: 0.0016644418, y: 0.00058044906, z: -0.0003782562}
+      rotation: {x: 0.011235115, y: -0.2819557, z: 0.959356, w: 0.003302566}
+      scale: {x: 0.9999973, y: 0.9999979, z: 0.9999999}
+    - name: foot_R_end
+      parentName: foot_R
+      position: {x: -0, y: 0.001951554, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_foot_R
+      parentName: Demon-Rig
+      position: {x: -0.0035212503, y: -0.00031176154, z: 0.0011004877}
+      rotation: {x: -0.08265361, y: -0.26958856, z: 0.9172785, w: 0.2812303}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: ik_foot_R_end
+      parentName: ik_foot_R
+      position: {x: -0, y: 0.003410616, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_foot_L
+      parentName: Demon-Rig
+      position: {x: 0.0039308053, y: 0.00069723837, z: 0.0010587871}
+      rotation: {x: 0.02651068, y: -0.28072542, z: 0.95517224, w: -0.09020273}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: ik_foot_L_end
+      parentName: ik_foot_L
+      position: {x: -0, y: 0.003410616, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

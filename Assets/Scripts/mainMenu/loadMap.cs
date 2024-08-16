@@ -18,50 +18,16 @@ public class loadMap : MonoBehaviour
     public bool isAutomatic = false;
     [Space, Tooltip("If true the script will be run only by an external input for example a button input (UI)")]
     public bool isFunction = false;
+    public bool enableLoading = true;
 
     private float act_time=0;
     private bool startTime = false;
+    bool started_loading = true;
 
     private void Start()
     {
-        if (isAutomatic)
-        {
-            if (animator != null)
-            {
-                animator.enabled = true;
-                if (!isNewGame)
-                    animator.Play("startLoading");
-                else
-                    animator.Play("newGame");
-
-                if (animatorAudio != null) animatorAudio.Play("playAudio");
-            }
-
-            startTime = true;
-        }
-    }
-
-    public void loadLevel()
-    {
-        if (animator != null)
-        {
-            animator.enabled = true;
-            if (!isNewGame)
-                animator.Play("startLoading");
-            else
-                animator.Play("newGame");
-
-            if (animatorAudio != null) animatorAudio.Play("playAudio");
-        }
-
-        startTime = true;
-    }
-
-    void Update()
-    {
-        if (!isAutomatic && !isFunction)
-        {
-            if (transform.GetComponent<buttonHandler>().clicked)
+        if(enableLoading) {
+            if (isAutomatic)
             {
                 if (animator != null)
                 {
@@ -77,14 +43,59 @@ public class loadMap : MonoBehaviour
                 startTime = true;
             }
         }
+    }
 
-        if (startTime)
-            act_time += Time.deltaTime;
+    public void loadLevel()
+    {
+        if(enableLoading) {
+            if (animator != null)
+            {
+                animator.enabled = true;
+                if (!isNewGame)
+                    animator.Play("startLoading");
+                else
+                    animator.Play("newGame");
 
-        if (act_time >= timeToWait)
-        {
-            StartCoroutine(LoadAsyncronously(sceneToLoad));
-            //SceneManager.UnloadSceneAsync(0);
+                if (animatorAudio != null) animatorAudio.Play("playAudio");
+            }
+
+            startTime = true;
+        }
+    }
+
+    void Update()
+    {
+        if(enableLoading) {
+            if (!isAutomatic && !isFunction)
+            {
+                if (transform.GetComponent<buttonHandler>().clicked)
+                {
+                    if (animator != null)
+                    {
+                        animator.enabled = true;
+                        if (!isNewGame)
+                            animator.Play("startLoading");
+                        else
+                            animator.Play("newGame");
+
+                        if (animatorAudio != null) animatorAudio.Play("playAudio");
+                    }
+
+                    startTime = true;
+                }
+            }
+
+            if (startTime) { act_time += Time.deltaTime; }
+
+            if (act_time >= timeToWait && started_loading)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                
+                StartCoroutine(LoadAsyncronously(sceneToLoad));
+                //SceneManager.UnloadSceneAsync(0);
+                started_loading = false;
+            }
         }
     }
 
@@ -92,13 +103,6 @@ public class loadMap : MonoBehaviour
     {
         AsyncOperation op = SceneManager.LoadSceneAsync(levelIndex);
 
-        while (!op.isDone)
-        {
-            //Debug.Log(op.progress);
-
-            yield return null;
-        }
-
-
+        while (!op.isDone) { yield return null; }
     }
 }

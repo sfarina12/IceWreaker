@@ -9,9 +9,15 @@ public class quest_pickUpItem : MonoBehaviour
     public string description;
     [HideInInspector]
     public bool picked=false;
+    [Space,Header("Pointer"),Min(0),Tooltip("[can be 0] if 0 will take <interacter> maxDistance. Indicate the distance before showing the pointer")]
+    public float pointerDistance = 0;
 
     playerInteractHandler interacter;
     printMessage message;
+
+    //pointer stuff
+    [HideInInspector] public bool canPointer = false;
+    [HideInInspector] public Collider pointerCollider;
 
     private void Start()
     {

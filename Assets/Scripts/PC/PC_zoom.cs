@@ -8,35 +8,52 @@ public class PC_zoom : MonoBehaviour
 {
     public SC_FPSController playerController;
     public GameObject playerCamera;
+    public GameObject cameraOrigin;
     public GameObject cameraDestination;
+    [Tooltip("Used for checking the power")]
     public quest_MQ1 quest;
     public float smoothness;
     public float minEndDistance = 1f;
-    public printMessage message;
+    public printMessage message; 
+
+
     private bool isCoroutineWorking = false;
-
-
     Vector3 originalPosition;
     Quaternion originalRotation;
+    [HideInInspector]
+    public bool zooming = false;
     
+    private void Start() {
+        originalPosition = cameraOrigin.transform.position;
+        originalRotation = cameraOrigin.transform.rotation;
+    }
+
     public void scriptOn() { 
         if(quest.canZoom) {
-            originalPosition = playerCamera.transform.position;
-            originalRotation = playerCamera.transform.rotation;
+            if(!zooming) {
+                playerController.audioRunning.stopAudio();
+                playerController.audioWalking.stopAudio();
 
+                //originalPosition = playerCamera.transform.position;
+                originalRotation = playerCamera.transform.rotation;
+                originalPosition = cameraOrigin.transform.position;
+                //originalRotation = cameraOrigin.transform.rotation;
 
-            isCoroutineWorking = true;
-            IEnumerator coroutine = moveCamera(cameraDestination.transform.position,cameraDestination.transform.rotation,false);
-            StartCoroutine(coroutine);
+                isCoroutineWorking = true;
+                IEnumerator coroutine = moveCamera(cameraDestination.transform.position,cameraDestination.transform.rotation,false);
+                StartCoroutine(coroutine);
+            }
         } else {
             message.showMessage("Out of power");
         }
     }
     public void scriptOff() { 
         if(quest.canZoom) {
-            isCoroutineWorking = true;
-            IEnumerator coroutine = moveCamera(originalPosition,originalRotation,true);
-            StartCoroutine(coroutine);
+            if(!zooming) {
+                isCoroutineWorking = true;
+                IEnumerator coroutine = moveCamera(originalPosition,originalRotation,true);
+                StartCoroutine(coroutine);
+            }
         } else {
             message.showMessage("Out of power");
         }
@@ -44,6 +61,7 @@ public class PC_zoom : MonoBehaviour
 
     private IEnumerator moveCamera(Vector3 endP, Quaternion endR,bool isOn)
     {
+        zooming = true;
         float distance = 100;
         while (distance > minEndDistance)
         {
@@ -65,7 +83,7 @@ public class PC_zoom : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
-
+        zooming = false;
     }
 
     public bool isInteracting() { 

@@ -43,4 +43,12 @@ public class lightSwitching : MonoBehaviour
         foreach(MeshRenderer model in models) 
            model.material = light_off;
     }
+
+    public void turnoOn() {
+        forseState = true;
+        foreach (Light light in lights)
+            light.transform.gameObject.SetActive(true);
+        foreach(MeshRenderer model in models) 
+           model.material = light_on;
+    }
 }

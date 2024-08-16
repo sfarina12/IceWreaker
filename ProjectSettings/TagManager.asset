@@ -7,6 +7,9 @@ TagManager:
   - interactable
   - monster
   - audio
+  - screen
+  - audioSphere
+  - PlayerAudio
   layers:
   - Default
   - TransparentFX
@@ -16,13 +19,13 @@ TagManager:
   - UI
   - mainMenuScreen
   - player
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - fakeMonster
+  - screen
+  - audioSphere
+  - audioIgnore_1
+  - audioIgnore_2
+  - exterior
+  - godRays
   - 
   - 
   - 

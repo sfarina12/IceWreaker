@@ -18,10 +18,16 @@ public class quest_pickUpUpdate : MonoBehaviour
     public string updateName;
     [Space,Tooltip("[OPTIONAL] sound when picking the update, it will always be located under <all_PlayerAudioSources/audio_dPad_Notification>")]
     public audioPlayer audio;
+    [Space,Header("Pointer"),Min(0),Tooltip("[can be 0] if 0 will take <interacter> maxDistance. Indicate the distance before showing the pointer")]
+    public float pointerDistance = 0;
 
     playerInteractHandler interacter;
     printMessage message;
     bool canAudio = false;
+
+    //pointer stuff
+    [HideInInspector] public bool canPointer = false;
+    [HideInInspector] public Collider pointerCollider;
 
     private void Start()
     {

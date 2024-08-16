@@ -8,10 +8,15 @@ public class quest_unlockHammer : MonoBehaviour
     public Outline outlineableObject;
     public Animator animator;
     public audioPlayer audioPlayer;
-
+    [Space,Header("Pointer"),Min(0),Tooltip("[can be 0] if 0 will take <interacter> maxDistance. Indicate the distance before showing the pointer")]
+    public float pointerDistance = 0;
 
     playerInteractHandler interacter;
     printMessage message;
+
+    //pointer stuff
+    [HideInInspector] public bool canPointer = false;
+    [HideInInspector] public Collider pointerCollider;
     private void Start()
     {
         if (!outlineableObject.tag.Equals("interactable")) Debug.LogError("The object with outline is not interactable");

@@ -12,12 +12,10 @@ public class playerInteractHandler : MonoBehaviour
     public GameObject interactableText;
     public LayerMask ignoreLayers;
 
-    [HideInInspector]
-    public bool isInteracting = false;
-    [HideInInspector]
-    public GameObject selectedDoor=null;
-    [HideInInspector]
-    public bool showInteractText = true;
+    [HideInInspector] public bool isInteracting = false;
+    [HideInInspector] public GameObject selectedDoor=null;
+    [HideInInspector] public bool showInteractText = true;
+    GameObject previoudSelectedDoor = null;
 
     void Update()
     {
@@ -26,22 +24,30 @@ public class playerInteractHandler : MonoBehaviour
         {
             if (!showInteractText) interactableText.active = false;
 
-            Debug.DrawRay(playerCamera.transform.position, playerCamera.transform.forward, Color.red);
-            
+            //Debug.DrawRay(playerCamera.transform.position, playerCamera.transform.forward, Color.red);
             if (hit.transform.tag.Equals("interactable"))
             {
                 selectedDoor = hit.transform.gameObject;
                 selectedDoor.GetComponent<Outline>().enabled = true;
 
                 interactableText.active = showInteractText?true:false;
-
+                
                 if (Input.GetKeyDown(interactionKey)) isInteracting = true;
                 if (Input.GetKeyUp(interactionKey)) isInteracting = false;
+            } else { 
+                if (selectedDoor != null) { selectedDoor.GetComponent<Outline>().enabled = false; } 
+                interactableText.active = false; 
             }
-            else { if (selectedDoor != null) selectedDoor.GetComponent<Outline>().enabled = false; interactableText.active = false; }
+        } else { 
+            if (selectedDoor != null) { selectedDoor.GetComponent<Outline>().enabled = false; } 
+            interactableText.active = false; 
         }
-        else { if (selectedDoor != null) selectedDoor.GetComponent<Outline>().enabled = false; interactableText.active = false; }
 
-        if (Input.GetKeyUp(interactionKey)) isInteracting = false;
+        if (Input.GetKeyUp(interactionKey) || (previoudSelectedDoor != selectedDoor)) isInteracting = false;
+        
+        if(previoudSelectedDoor != selectedDoor) { 
+            if(previoudSelectedDoor != null) { previoudSelectedDoor.GetComponent<Outline>().enabled = false; }
+            previoudSelectedDoor = selectedDoor; 
+        }
     }
 }

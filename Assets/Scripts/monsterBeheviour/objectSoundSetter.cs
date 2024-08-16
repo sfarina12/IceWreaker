@@ -4,38 +4,41 @@ using UnityEngine;
 
 public class objectSoundSetter : MonoBehaviour
 {
-    public m_patrolling patrolling;
-    [Space]
-    public CapsuleCollider soundCollider;
-    [Min(0)]
-    public float soundTime = 0;
+    [Header("AI Settings")]
+    public ai_controller ai;
+    public float triggerDistance = 0f;
     [Space]
     public bool activate = false;
+    [Space,Min(0),Header("Sound settings")]
+    public float soundTime = 0;
+    [Min(1),Tooltip("the value to display to the d-pad update")]
+    public float soundLoudness = 0;
 
+    bool can_collide = true;
+    [HideInInspector] public bool isActive = false;
     float soundSize;
     float act_time=0;
 
-    private void OnTriggerEnter(Collider other) {
-        if (other.tag.Equals("monster"))
-        { if(patrolling.enabled) patrolling.soundTriggered(transform); }
+    void Start() { can_collide = false; }
+
+    void Update() {
+        if (act_time >= 0f) { act_time -= Time.deltaTime; isActive = true; }
+        else { isActive = false; }
     }
 
-    void Start()
-    {
-        soundSize = soundCollider.radius;
-        soundCollider.radius = 0;
-    }
-
-
-    void Update()
-    {
-        if (act_time >= 0f) { act_time -= Time.deltaTime; }
-        else { soundCollider.radius = 0; }
-    }
-
-    public void activateSound()
-    {
-        soundCollider.radius = soundSize;
+    public void activateSound() {     
         act_time = soundTime;
+           
+        if(ai.gameObject.activeSelf) {
+            float distance = Vector3.Distance(transform.position, ai.transform.position);
+            if(distance <= triggerDistance) { ai.trigger(transform.position); }
+        }
     }
+
+    //-------------------------[VISUAL DISTANCE]-------------------------
+    void OnDrawGizmosSelected() {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(transform.position, triggerDistance);
+    }
+    //END ---------------------[VISUAL DISTANCE]-------------------------
 }

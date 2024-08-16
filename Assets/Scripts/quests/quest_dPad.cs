@@ -13,12 +13,20 @@ public class quest_dPad : MonoBehaviour
     public GameObject messageDpad;
     [Space]
     public audioPlayer audio;
+    [Space,Header("Pointer"),Min(0),Tooltip("[can be 0] if 0 will take <interacter> maxDistance. Indicate the distance before showing the pointer")]
+    public float pointerDistance = 0;
 
     playerInteractHandler interacter;
     bool destroyed = false;
     float time = 0;
     [HideInInspector]
     public bool questEnded = false;
+
+    [HideInInspector] public bool devtool = false;
+
+    //pointer stuff
+    [HideInInspector] public bool canPointer = false;
+    [HideInInspector] public Collider pointerCollider;
 
     private void Start()
     {
@@ -39,7 +47,7 @@ public class quest_dPad : MonoBehaviour
                     message.showMessage("A useful multi-kit machine");
                 }
 
-                if (interacter.isInteracting && outlineableObject.enabled)
+                if ((interacter.isInteracting && outlineableObject.enabled) || devtool)
                 {
                     destroyed = true;
                     audio.playAudio();

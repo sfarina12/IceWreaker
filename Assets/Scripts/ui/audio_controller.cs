@@ -14,7 +14,7 @@ public class audio_controller : MonoBehaviour
     public float volume = 0.49f;
 
     List<AudioSource> audioSources;
-    int index = 4;
+    int index = 5;
     [SerializeField]
     private AudioMixer mainMixed;
     void Start()
@@ -28,29 +28,31 @@ public class audio_controller : MonoBehaviour
 
     public void minus() {
         audioPlayer.playAudio();
-  
-        if(index >= 0) {
-            slider[index].SetActive(false);
+        float calulus;
+        
+        if(index > 1) {
+            slider[index-1].SetActive(false);
             volume -= 0.09f; 
             index--;
+
+            calulus = Mathf.Log10(volume)*20;
+        } else {
+            calulus = -80;
+            index = 0;
+            slider[0].SetActive(false);
         }
 
-        mainMixed.SetFloat("MasterVolume",Mathf.Log10(volume)*20);
-        // float v = (float) audio_masterValue/100;
-        // foreach (AudioSource ret in audioSources) ret.volume = v;
+        mainMixed.SetFloat("MasterVolume",calulus);
     }
 
     public void plus() {
         audioPlayer.playAudio();
 
-        if(index < 9) {
+        if(index <= 9) {
             index++;
             volume += 0.09f; 
-            slider[index].SetActive(true);
+            slider[index-1].SetActive(true);
         }
-
         mainMixed.SetFloat("MasterVolume",Mathf.Log10(volume)*20);
-        //float v = (float) audio_masterValue/100;
-        //foreach (AudioSource ret in audioSources) ret.volume = v;
     }
 }

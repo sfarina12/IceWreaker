@@ -1,35 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class soundDetector_update : MonoBehaviour
 {
+    public bool debug = false;
+    [Space]
     public Slider sliderVolume;
-    public SphereCollider playerSoundCollider;
+    public SC_FPSController platerController;
+    public float smoothness = 1;
+    public GameObject monster;
+    public GameObject testError;
 
-    public Animator animator;
+    //Vector3 lastPosition = Vector3.zero;
+    int act_sound=0;
+    List<objectSoundSetter> sounds = new List<objectSoundSetter>();
 
-    bool isOn = false;
-
-    void Start() { sliderVolume.transform.parent.gameObject.SetActive(false); sliderVolume.value = 0; }
-
+    void Start() { 
+        sliderVolume.value = 0;
+        sounds = Resources.FindObjectsOfTypeAll<objectSoundSetter>().ToList<objectSoundSetter>();
+        testError.SetActive(true);
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            isOn = !isOn;
-            Debug.Log("ciao");
-            sliderVolume.transform.parent.gameObject.SetActive(isOn);
-            animator.Play(isOn ? "open_screen" : "close_screen");
+        if(monster.activeSelf || debug) {          
+            if(testError.activeSelf) { testError.SetActive(false);  }
+            act_sound=0;
+            int player_sound = 1;
 
-            /*bool isVisibe = animator.GetBool("isD-PadVisible");
+            foreach(objectSoundSetter s in sounds) {
+                if(Vector3.Distance(transform.position,s.transform.position) < 5) {
+                    if(s.isActive) {
+                        if(s.soundLoudness > act_sound) {
+                            act_sound = (int) s.soundLoudness;
+                        }
+                    }
+                }
+            }
 
-            if(!isVisibe) animator.Play("open_light");*/
+            if(platerController.isMoving) {
+                if(platerController.isCrouch) { player_sound /= 20; }
+                else if(platerController.isRunning) { player_sound *= 20; }
+                else { player_sound = 10; }
+            } else { player_sound = 1; }
+
+            float noise = player_sound < act_sound ? act_sound : player_sound;
+            sliderVolume.value = Mathf.Lerp(sliderVolume.value, noise,Time.deltaTime*smoothness);
         }
-
-        if(isOn)
-            sliderVolume.value = playerSoundCollider.radius*10;
     }
 }

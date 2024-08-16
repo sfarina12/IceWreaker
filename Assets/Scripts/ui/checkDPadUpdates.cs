@@ -11,13 +11,9 @@ public class checkDPadUpdates : MonoBehaviour
 
     [Space,Space,Tooltip("The lock symble, i.e. the image associated with the UI d-pad update")]
     public GameObject lockedSimble;
-    [HideInInspector]
-    public bool isUpdate=false;
+    [HideInInspector] public bool isUpdate=false;
 
-    private void Start()
-    {
-        if (lockedSimble == null) Debug.LogError("Qnable to unclock the d-pad UI. Please add the image associated with the lock symble");
-    }
+    private void Start() { if (lockedSimble == null) Debug.LogError("Qnable to unclock the d-pad UI. Please add the image associated with the lock symble"); }
     //the function that will be called by the <quest_pickUpUpdate> Component linked with the same update.
     public void updateUpgrades() { isUpdate = true; lockedSimble.active = false; }
     

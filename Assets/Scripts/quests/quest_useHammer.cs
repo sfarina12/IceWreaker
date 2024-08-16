@@ -20,6 +20,12 @@ public class quest_useHammer : MonoBehaviour
     playerInteractHandler interacter;
     [Space]
     public audioPlayer hammerHit;
+    [Space,Header("Pointer"),Min(0),Tooltip("[can be 0] if 0 will take <interacter> maxDistance. Indicate the distance before showing the pointer")]
+    public float pointerDistance = 0;
+
+    //pointer stuff
+    [HideInInspector] public bool canPointer = false;
+    [HideInInspector] public Collider pointerCollider;
     private void Start()
     {
         interacter = GameObject.Find("player").GetComponent<playerInteractHandler>();

@@ -10,7 +10,9 @@ public class quest_MQ1 : MonoBehaviour
     public Animator doorAnimator;
     public List<lightSwitching> all_switches;
     public animationsStates state;
-    public List<GameObject> lightPCs;
+    public List<GameObject> supplementaryLights;
+    public GameObject engineAudio;
+    public GameObject ambienceAudio;
     
 
     [HideInInspector]
@@ -30,13 +32,14 @@ public class quest_MQ1 : MonoBehaviour
         screen.Add("1#ENGINE STATUS");
         screen.Add("2#START ENGINE");
         screen.Add("3#DIAGNOSTIC");
+        screen.Add("5#REDIRECT ENERGY");
         PC.menu(screen);
     }
 
     void Update() {
-        if(PC.enter != -1) {
+        if(PC.enter != -1 && !questEnded) {
             menus = PC.enter;
-            if(menus <= 4) {
+            if(menus <= 5) {
                 switch(menus) {
                     case 0: 
                         screen = new List<string>(); 
@@ -48,10 +51,8 @@ public class quest_MQ1 : MonoBehaviour
                         screen.Add("1#ENGINE STATUS");
                         screen.Add("2#START ENGINE");
                         screen.Add("3#DIAGNOSTIC");
-                        if(performad) {
-                            screen.Add("$");
-                            screen.Add("4#OPEN MAIN ENGINE ROOM");
-                        }
+                        screen.Add("5#REDIRECT ENERGY");
+                        if(performad) { screen.Add("4#OPEN MAIN ENGINE ROOM"); }
                     break;
                     case 1:
                         screen = new List<string>(); 
@@ -92,8 +93,20 @@ public class quest_MQ1 : MonoBehaviour
                         screen.Add("$BY OPENING THE MAIN ENGINE DOOR THERE WILL NOT BE ENOUGH ENERGY TO MAINTAIN SHIP BASIC ENERGY REQUIREMENTS");               
                         screen.Add("$");
                         screen.Add("$CONTINUE?");
-                        screen.Add("5#Y");
+                        screen.Add("6#Y");
                         screen.Add("0#N");
+                    break;
+                    case 5:
+                        screen = new List<string>(); 
+                        screen.Add("$WARNING");
+                        screen.Add("$////////////////////////");
+                        screen.Add("$ENGINE MALFUNCTION DETECTED");
+                        screen.Add("$THE ENGINE IS RUNNING IN POWER SAVING MODE TO AVOID FURTHER SYSTEM DAMAGE.");               
+                        screen.Add("$");
+                        screen.Add("$CANNOT REDIRECT ENERGY.");
+                        screen.Add("$");
+                        screen.Add("$");
+                        screen.Add("0#BACK");
                     break;
                 }
                 PC.menu(screen);
@@ -102,19 +115,32 @@ public class quest_MQ1 : MonoBehaviour
                 screen.Add("$OPENING MAIN ENGINE DOOR");
                 screen.Add("$PLEASE WAIT UNTIL THE SEQUENZE IS ENDED");
                 PC.menu(screen);
+                PC.kickOutOfPC();
                 doorAnimator.Play("heavyDoorOpenClose");
             }
         }
 
-        if(state.isEnded) {
+        if(state.isEnded && !questEnded) {
             foreach(lightSwitching a in all_switches) { a.turnoOff(); }
-            foreach(GameObject l in lightPCs) l.SetActive(false);
+            foreach(GameObject l in supplementaryLights) l.SetActive(false);
+            engineAudio.SetActive(false);
             
             screen = new List<string>(); 
             PC.menu(screen);
 
+            ambienceAudio.SetActive(true);
+
             canZoom = false;
             questEnded = true;
         }
+        
+        // if(questEnded) {
+        //     screen = new List<string>(); 
+        //     screen.Add("$ENGINE STATUS: OPERATIONAL");
+        //     screen.Add("$POWER OUTPUT: 50%");
+        //     screen.Add("$THERE IS NOT ENOUTH POWER TO SUSTAIN ADVANCED SHIP FUNCTIONALITY.");
+        //     screen.Add("$DEVICES WHO USES MORE POWER THAN 50KW/h MAY NOT FUNCTION.");
+        //     PC.menu(screen);
+        // }
     }
 }

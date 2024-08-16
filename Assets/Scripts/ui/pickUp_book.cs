@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class pickUp_book : MonoBehaviour
 {
@@ -27,16 +28,24 @@ public class pickUp_book : MonoBehaviour
 
     [Space]
     public GameObject dPadLight;
+    public bool console = false;
 
+    [Space,Header("Pointer")]
+    [Min(0),Tooltip("[can be 0] if 0 will take <interacter> maxDistance. Indicate the distance before showing the pointer")]
+    public float pointerDistance = 0;
 
     GameObject zoomBookContainer_noLightUpdate;
     TextMeshPro bookText;
     TextMeshProUGUI zoomBookText;
     Animator bookAnimator;
-    bool open = false;
+    [HideInInspector] public bool open = false;
     bool isZommed = false;
     playerInteractHandler interacter;
-    
+
+
+    //pointer stuff
+    [HideInInspector] public bool canPointer = false;
+    [HideInInspector] public Collider pointerCollider;    
 
     private void Start()
     {
@@ -52,8 +61,6 @@ public class pickUp_book : MonoBehaviour
         closeBookMessage.SetActive(false);
         zoomBookMessage.SetActive(false);
         zoomBookContainer_noLightUpdate.SetActive(true);
-
-        //dPadLight = GameObject.Find("d-padLight");
     }
 
     private void Update()
@@ -71,8 +78,13 @@ public class pickUp_book : MonoBehaviour
             openBook(gameObject);
         }
 
-        if (open)
-        {
+        if(console) {
+            Debug.Log("interacter: "+interacter.isInteracting);
+            Debug.Log("outline: "+outlineableObject.enabled);
+            Debug.Log("open: "+open);
+        }
+
+        if (open) {
             if (Input.GetKeyDown(keyToCloseBook))
             { 
                 open = false; 

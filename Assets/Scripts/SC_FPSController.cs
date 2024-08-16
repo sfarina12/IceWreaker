@@ -23,46 +23,44 @@ public class SC_FPSController : MonoBehaviour
     public audioPlayer audioWalking;
     public audioPlayer audioRunning;
 
-    private CharacterController characterController;
-    private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
-    [HideInInspector]
-    public float movementDirectionY;
-    [HideInInspector]
-    public bool canMove = true;
+    [HideInInspector] public CharacterController characterController;
+    [HideInInspector] public Vector3 moveDirection = Vector3.zero;
+    [HideInInspector] public float movementDirectionY;
+    [HideInInspector] public bool canMove = true;
+    [HideInInspector] public bool isRunning = false;
+    [HideInInspector] public bool isCrouch = false;
+    [HideInInspector] public bool isMoving = false;
+    [HideInInspector] public bool isGrounded = false;
 
-    void Start()
-    {
+    void Start() {
         characterController = GetComponent<CharacterController>();
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-    void Update()
-    {
+
+    void Update() {
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
-        bool isCrouch = Input.GetKey(KeyCode.LeftControl);
+        isRunning = Input.GetKey(KeyCode.LeftShift);
+        isCrouch = Input.GetKey(KeyCode.LeftControl);
+
+        //isGrounded = groundChecker();
+        isGrounded = characterController.isGrounded;
 
         float curSpeedX = 0f;
         float curSpeedY = 0f;
-        if (canMove)
-        {
-            if (isRunning && !isCrouch)
-            {
+        if (canMove) {
+            if (isRunning && !isCrouch) {
                 curSpeedX = runningSpeed * Input.GetAxis("Vertical");
                 curSpeedY = runningSpeed * Input.GetAxis("Horizontal");
-            }
-            else if (isCrouch)
-            {
+            } else if (isCrouch) {
                 curSpeedX = crouchingSpeed * Input.GetAxis("Vertical");
                 curSpeedY = crouchingSpeed * Input.GetAxis("Horizontal");
-            }
-            else
-            {
+            } else {
                 curSpeedX = walkingSpeed * Input.GetAxis("Vertical");
                 curSpeedY = walkingSpeed * Input.GetAxis("Horizontal");
             }
@@ -76,24 +74,30 @@ public class SC_FPSController : MonoBehaviour
             else { audioWalking.playAudio(); audioRunning.stopAudio(); }
 
 
-            if (Input.GetKeyDown("space") && canMove && characterController.isGrounded)
-                moveDirection.y = jumpSpeed;
-            else
-                moveDirection.y = movementDirectionY;
+            if (Input.GetKeyDown("space") && canMove && isGrounded) { moveDirection.y = jumpSpeed; }
+            else { moveDirection.y = movementDirectionY; }
 
-            if (!characterController.isGrounded)
-                moveDirection.y -= gravity * Time.deltaTime;       
-
+            if (!isGrounded) { moveDirection.y -= gravity * Time.deltaTime; }    
+            
             characterController.Move(moveDirection * Time.deltaTime);
 
+            if(moveDirection == Vector3.zero) { isMoving = false; }
+            else { isMoving = true; }
+
             // Player and Camera rotation
-            if (canMove)
-            {
+            if (canMove) {
                 rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
                 rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
                 playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
                 transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
             }
-        }
+        } else { isMoving = false; }
+    }
+    
+    bool groundChecker() {
+        RaycastHit hit;
+        Debug.DrawRay(transform.position, Vector3.down,Color.red);
+        if (Physics.Raycast(transform.position, Vector3.down, out hit)) { Debug.Log(hit.transform.name); return true; }
+        return false;
     }
 }
