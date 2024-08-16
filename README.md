@@ -23,7 +23,7 @@ Almost all things were made by me, except:
 <h2>Story & Location</h2>
 <p>
 The game is located on a ship named "Icewrecker", in the middle of the Ross Sea. 
-For an unkown reason you are stuck on this ship without a single human and must try to leave the vassel.. unharmed.
+For an unknown reason you are stuck on this ship without a single human and must try to leave the vassel.. unharmed.
 </p>
 
 <h2>Scripting</h2>
