@@ -39,8 +39,8 @@ The monster has some basic and advanced behavior. Its AI works as follows
 <h2>Social</h2>
 <p>
   <ul>
-    <li>Trailer of the game on <a href="">Youtube</a></li>
-    <li>Download game on <a href="">Itch.io</a></li>
+    <li>Trailer of the game on <a href="https://youtu.be/TMmU4ep__h8">Youtube</a></li>
+    <li>Download game on <a href="https://quackyducky.itch.io/icewrecker">Itch.io</a></li>
     <li>Direct game download on <a href="https://mega.nz/file/rZwnBCwD#AkcghLO_Cp11ZfFw_g1R1NCtROhYX8dM2Qqe-Oxpz58">Mega</a></li>
   </ul>
 </p>
