@@ -11,7 +11,7 @@
 
 <h2>Credits</h2>
 <p>
-Almost all things were made by me, except:
+Models, animations and coding were made by myself, except:
 <ul>
   <li>Monster model <a href="https://hugodg.itch.io/">Hugo De Groote</a></li>
   <li>Monster animations <a href="https://hugodg.itch.io/">Hugo De Groote</a></li>
