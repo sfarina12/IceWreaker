@@ -8,10 +8,12 @@ The game is totally free and the source code can be freely analized in this repo
 
 <h2>Credits</h2>
 Almost all things were made by me, except:
-+Monster model [Hugo De Groote](https://hugodg.itch.io/)
-+Monster animations [Hugo De Groote](https://hugodg.itch.io/)
-+My logo at the beginning of the game [NIJI](https://www.instagram.com/niji_ewe/)
-+Almost all audio sources
+<ul>
+  <li>Monster model [Hugo De Groote](https://hugodg.itch.io/)</li>
+  <li>Monster animations [Hugo De Groote](https://hugodg.itch.io/)</li>
+  <li>My logo at the beginning of the game [NIJI](https://www.instagram.com/niji_ewe/)</li>
+  <li>Almost all audio sources</li>
+</ul>
 
 <h2>Story & Location</h2>
 The game is located on a ship named "Icewrecker", in the middle of the Ross Sea. 
