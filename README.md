@@ -32,5 +32,5 @@ Most important components have been fully commented and explained in their funct
 didn't used to comment functions and rapidly regretted it.
 <h3>Monster AI</h3>
 The monster has some basic and advanced behavior. Its AI works as follows
-<img src='[https://raw.githubusercontent.com/sfarina12/IceWrecker/main/Assets/Texture/github/Icewrecker_logo.png](https://raw.githubusercontent.com/sfarina12/IceWrecker/main/AI.png)'>
+<img src='https://raw.githubusercontent.com/sfarina12/IceWrecker/main/AI.png'>
 </p>
