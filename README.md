@@ -5,7 +5,8 @@
   A horror game made in Unity3D game engine.
   The game was made as modular as possible, so the majority of components could be reused.
   This game was made with the sole intent of showing my skills in game programming, modelling and animating
-  The game is totally free and the source code can be freely analized in this repository 
+  The game is totally free and the source code can be freely analized in this repository.
+  The game is about 30 minutes long.
 </p>
 
 <h2>Credits</h2>
